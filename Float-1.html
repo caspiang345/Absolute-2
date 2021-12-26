@@ -6,7 +6,7 @@
 <title>Positioning Lab</title>
 <style type="text/css">
 * {
-	margin: 10px;
+	margin: 0px;
 	padding: 0px;
 }
 body {
@@ -28,39 +28,48 @@ body {
 	border-bottom-style: solid;
 	border-left-style: solid;
 	width: 800px;
-	height: 300px;
 	margin-right: auto;
 	margin-left: auto;
 }
 #red {
 	background-color: #900;
-	float: left;
-	width: 180px;
-	height: 200px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 180px;
+	width:180px;
 }
 #green {
 	background-color: #090;
-	float: left;
-	width: 180px;
-	height: 200px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 180px;
+	width:180px;
 }
 #blue {
 	background-color: #00F;
-	float: left;
-	width: 180px;
-	height: 200px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 180px;
+	width:180px;
 }
 #purple {
 	background-color: #63C;
-	float: left;
-	width: 180px;
-	height: 200px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	height: 180px;
+	width:180px;
 }
 #footer {
 	background-color: #666;
-	position: absolute;
-	top: 400px;
-	width: 780px;
+	margin: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	width:180px;
 }
 h1 {
 	color: #000;
@@ -71,7 +80,7 @@ h1 {
 </head>
 
 <body>
-<h1>Float 2</h1>
+<h1>Absolute 1</h1>
 <div id="wrapper">
   <div id="red">Red</div>
   <div id="green">Green</div>
